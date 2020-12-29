@@ -1,22 +1,22 @@
 {
-  "name": "@eliteswap/default-token-list",
-  "version": "1.5.1",
+  "name": "@xswap/default-token-list",
+  "version": "1.0.0",
   "description": "◦ The Elite Swap default token list",
-  "main": "build/eliteswap-default.tokenlist.json",
+  "main": "build/xswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/eliteswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/xswap-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/eliteswap-default.tokenlist.json"
+    "build/xswap-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EthereumEliteswap/default-token-list.git"
+    "url": "git+https://github.com/xswap/default-token-list.git"
   },
   "keywords": [
-    "eliteswap",
+    "xswap",
     "default",
     "token",
     "list"
@@ -24,11 +24,11 @@
   "author": "",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/EthereumEliteswap/default-token-list/issues"
+    "url": "https://github.com/xswap/default-token-list/issues"
   },
-  "homepage": "https://github.com/EthereumEliteswap/default-token-list#readme",
+  "homepage": "https://github.com/xswap/default-token-list#readme",
   "devDependencies": {
-    "@eliteswap/token-lists": "^1.0.0",
+    "@xswap/token-lists": "^1.0.0",
     "@ethersproject/address": "^5.0.2",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",

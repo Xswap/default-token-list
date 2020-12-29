@@ -13,9 +13,9 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'https://raw.githubusercontent.com/EthereumEliteswap/default-token-list/master/src/assets/0x380291A9A8593B39f123cF39cc1cc47463330b1F/logo.png',
+    'logoURI': 'https://raw.githubusercontent.com/xswap/default-token-list/master/src/assets/0x380291A9A8593B39f123cF39cc1cc47463330b1F/logo.png',
     'keywords': [
-      'eliteswap',
+      'xswap',
       'default'
     ],
     tokens: [
