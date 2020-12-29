@@ -1,7 +1,7 @@
 {
   "name": "@xswap/default-token-list",
   "version": "1.0.0",
-  "description": "◦ The Elite Swap default token list",
+  "description": "◦ The Xswap default token list",
   "main": "build/xswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
